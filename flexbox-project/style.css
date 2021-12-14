@@ -59,7 +59,7 @@ html {
   flex-flow: row wrap;
   justify-content: space-around;
   height: 500px;
-  gap: 0px;
+  gap: 30px;
 }
 .flex-item {
   display: flex;
@@ -70,3 +70,18 @@ html {
 img {
   margin: 0;
 }
+p {
+  max-width:80%;
+}
+h2 {
+  font-family: 'DM Serif Display', serif;
+  float: left;
+}
+#about {
+  padding: 10%;
+  vertical-align: middle;
+}
+#text {
+  justify-content: space-between;
+  width: 1400px;
+  height: auto;
