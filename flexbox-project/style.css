@@ -48,12 +48,6 @@ html {
     float: left;
 }
 .hero {
-<<<<<<< HEAD
-    margin: 5% 0;
-    background-color: #fce8e6;
-    width: 100%;
-}
-=======
     margin: 0 auto;
     padding: 6%;
     background-color: #f7f4ef;
@@ -91,4 +85,3 @@ h2 {
   justify-content: space-between;
   width: 1400px;
   height: auto;
->>>>>>> 86e115fc44d74e1250e4e869e0f47fc83c8c7de4
