@@ -12,7 +12,8 @@ html {
 /* Text */
 h1 {
     font-family: 'DM Serif Display', serif;
-    font-size: 6rem !important;
+    font-size: 8rem !important;
+    line-height: 1 !important;
 }
 
 /* divs and other content */
@@ -36,4 +37,6 @@ h1 {
 }
 .hero {
     margin: 5% 0;
+    background-color: #fce8e6;
+    width: 100%;
 }
