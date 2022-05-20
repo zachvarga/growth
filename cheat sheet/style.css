@@ -1,0 +1,58 @@
+/* General Utilities */
+*,
+body,
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+/* Fonts */
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notoserif/v16/ga6Law1J5X9T9RW6j9bNdOwzfRqece9LOocoDg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* H Tags */
+h1 {
+    font-family: 'Noto Serif';
+    font-weight: 700;
+    font-size: 3em;
+    color: #4b545f;
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #37423b;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Table */
+table {
+    width: 600px;
+    margin: 0 auto;
+    border: solid 3px #0e1f37;
+}
+thead {
+    background-color: #bbd5c8;
+}
+td {
+    border-top: 1px solid #0e1f37;
+}
+/* Divs */
+.header {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+.date {
+    background-color: #bfbbd5;
+    color: #333;
+    font-family: monospace;
+}

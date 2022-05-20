@@ -3,6 +3,8 @@
 }
 html {
     font-size: 20px;
+    max-width: 1400px;
+    margin: 0;
 }
 body {
     font-family: 'Helvetica', sans-serif;
@@ -10,7 +12,7 @@ body {
 }
 nav {
     display: flex;
-    width: 100%;
+    width: 1400px;
     background: transparent;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +42,7 @@ a:hover {
     color:#dbe9ee !important;
 }
 img {
-    max-width: 100vw;
+    max-width: 400px;
 }
 .hero {
     padding: 5em;
@@ -66,4 +68,11 @@ img {
     justify-items: stretch;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: ;
+    max-width: 1400px !important;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    padding: 0 !important;
+    margin: 2em auto;
 }
