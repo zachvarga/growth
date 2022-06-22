@@ -1,3 +1,3 @@
 # growth
 
-Hey honey, I really love you.
+This is a repo compilation of projects I've done through CodeCademy.
